@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner .banner-img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* featured section style end*/
+.extra {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    height: 320px;
+    align-items: center;
+}
+
+#man {
+    /* padding: 100px 0; */
+    margin: 100px 0;
+}
+
+.container .phone .kotha {
+    padding-left: 50px;
+}
+
+.container .phone .fol {
+    padding-left: 100px;
+}
+
+.container .phone .book {
+    padding-left: 130px;
+}
+
+.container .phone p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* rose section style */
+#rose {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    margin: 100px 0;
+}
+
+#rose .lal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.lal .container-tet p {
+    width: 100%;
+    max-width: 445px;
+}
+
+.lal .container-tet button {
+    margin-left: 60px;
+    width: 150px;
+}
+/* instragram style */
+.mog{
+    margin: 100px 0;
+}
+.mog .container .insta h2{
+    padding-bottom: 30px;
+}
+.mog .container .insta {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.mog .four{
+    display: flex;
+    gap: 10px;
+}
+
+.mog .four .div1 img{
+    width: 286px;
+    height: 350px;
+    justify-content: space-between;
+   
+}
+.mog .four .div1 img:hover{
+    opacity: .5;
+    border: 1px solid black;
+}
+/* last style here */
+.last{
+    margin: 100px 0;
+}
+.back{
+    background-image: url(image/Rectangle 9.png);
+}
+/* footer style here */
+footer{
+    background-color: #111010; 
+    height: 449px;
+}
+footer .shop {
+    text-align: center;
+}
